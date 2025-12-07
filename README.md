@@ -371,8 +371,7 @@ Debug: true
 
 ## 📄 License
 
-MIT License - Tự do sử dụng, chỉnh sửa, phân phối
-
+MIT License 
 ---
 
 ## 🔗 Liên Quan
@@ -383,10 +382,3 @@ MIT License - Tự do sử dụng, chỉnh sửa, phân phối
 
 ---
 
-**Phiên bản:** 1.0.1
-**Cập nhật lần cuối:** 2025-12-07
-**Tác giả:** MinhTaz
-
----
-
-*Plugin này là add-on chính thức cho CrazyEnchantments. Cảm ơn đã sử dụng!* ✨
