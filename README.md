@@ -20,7 +20,6 @@ Plugin này thêm tính năng hiển thị **số slot enchant còn lại** tr�
 - 🔴 Thông báo khi full slot
 - 🎨 Tùy chỉnh hoàn toàn tin nhắn
 - 📊 PlaceholderAPI support (8 placeholder)
-- ⚡ Nhẹ & nhanh - chỉ 22 KB
 - 🔧 Dễ cấu hình
 
 ---
