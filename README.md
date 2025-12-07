@@ -80,9 +80,6 @@ Messages:
   InvalidCommand: "&cUsage: /ceaddon reload"
 ```
 
-### Tùy Chỉnh Tin Nhắn
-
-- `&c` = đỏ, `&e` = vàng, `&a` = xanh lá, `&7` = xám, `&b` = xanh nước
 
 ### Built-in Placeholder trong Lore
 
@@ -133,48 +130,6 @@ Còn có thể enchant: 5 enchant
 
 ---
 
-## 📊 PlaceholderAPI
-
-**Chỉ hoạt động với PlaceholderAPI** - Sử dụng trong plugin khác (scoreboards, nametags, actionbar, etc.):
-
-⚠️ **Không thể dùng trong lore item!** Dùng **Built-in Placeholder** ở trên để sửa lore.
-
-### Placeholder Hiện Tại
-
-| Placeholder | Giá Trị | Ví Dụ |
-|------------|--------|-------|
-| `%ceaddon_slots%` | Slot còn lại | `5` |
-| `%ceaddon_hientai%` | Số enchant hiện tại | `3` |
-| `%ceaddon_toida%` | Tổng slot tối đa | `8` |
-| `%ceaddon_max_slots%` | Max từ API | `10` |
-| `%ceaddon_base_slots%` | Base slots | `10` |
-| `%ceaddon_slot_crystal_adjustment%` | Giảm slot (crystal) | `-2` |
-| `%ceaddon_bypass_limit%` | Có bypass permission | `false` |
-| `%ceaddon_current_enchants%` | Số enchant hiện tại | `3` |
-
-### Ví Dụ Sử Dụng (PlaceholderAPI)
-
-```
-# Trên actionbar
-/msg %player% [%ceaddon_hientai%/%ceaddon_toida%] slots
-
-# Trên bảng thông tin
-Slots: %ceaddon_hientai%/%ceaddon_toida%
-
-# Format đẹp
-[%ceaddon_hientai%/%ceaddon_toida%] ≫ %ceaddon_slots% còn lại
-```
-
----
-
-## 🎯 Sự Khác Nhau
-
-| Loại | Nơi Dùng | Cách Dùng |
-|------|----------|----------|
-| **Built-in** | Lore item config | `%space%` `%hientai%` `%toida%` |
-| **PlaceholderAPI** | Scoreboards, Chat, Actionbar, etc. | `%ceaddon_slots%` `%ceaddon_hientai%` |
-
----
 
 ## 🔍 Cách Hoạt Động
 
